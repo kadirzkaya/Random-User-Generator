@@ -1,0 +1,59 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, black, white);
+    overflow: hidden;
+}
+
+.title{
+    color: #FBD46D;
+}
+
+.user{
+    width: 28%;
+    height: 80%;
+    background-color: brown;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.photo{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    width: 100%;
+    height: 40%;
+    color: #FBD46D;
+}
+
+img{
+    width: 90%;
+    border-radius: 1rem;
+    object-fit: cover;
+    height: 90%;
+}
+
+.info p{
+    display: flex;
+    align-items: center;
+}
+
+i{
+    width: 30px;
+}
+
+.btn{
+    color: white;
+}
+
+.btn:hover{
+    color: #ffc107;
+    background-color: white;
+}
